@@ -38,6 +38,9 @@ a{
 	width: 100%;
 }
 .frame-child{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 485px;
 }
 
