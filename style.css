@@ -9,6 +9,7 @@ body{
 	align-content: flex-start;
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: 17px;
+	min-width: 350px;
 }
 h1, h2, h3{
 	width: 100%;
@@ -35,4 +36,13 @@ a{
 }
 .frame-child-100{
 	width: 100%;
+}
+.frame-child{
+	width: 485px;
+}
+
+@media (max-width: 600px){
+	.frame-child{
+		width: 400px;
+	}
 }
